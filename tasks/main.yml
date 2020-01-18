@@ -1,0 +1,10 @@
+---
+
+- hosts: demo
+  roles:
+    - ansible_buster_base
+    - ansible_users
+    - ansible_docker
+    - ansible_docker_portainer
+    - ansible_docker_registry
+    - ansible_users
